@@ -6,30 +6,24 @@ using System.Threading.Tasks;
 
 namespace Program
 {
-    internal class cartesion
+    internal class Check_Equality
     {
-        public void calc_distance()
+        public static void get_equality()
         {
-            Console.WriteLine("Enter the Co-ordinates of 1st Line");
-            Console.WriteLine("Enter the 1st Co-ordinate of the 1st Line");
-            Console.Write("Enter Value of x1 : ");
-            int x1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Value of y1 : ");
-            int y1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the 2nd Co-ordinate of the 1st Line");
-            Console.Write("Enter Value of x2 : ");
-            int x2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Value of y2 : ");
-            int y2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Co-ordinates of 2nd Line");
+            Console.WriteLine("Enter the 1st Co-ordinate of the 2nd Line");
+            Console.Write("Enter Value of x3 : ");
+            int x3 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Value of y3 : ");
+            int y3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the 2nd Co-ordinate of The 2nd Line");
+            Console.Write("Enter value of x4 : ");
+            int x4 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter value of y4 : ");
+            int y4 = Convert.ToInt32(Console.ReadLine());
 
-            double length1 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-
+            double length2 = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
         }
+
     }
-
 }
-
-
-
-
-

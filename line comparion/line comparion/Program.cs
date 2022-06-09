@@ -6,8 +6,8 @@ namespace Program
     {
         public static void Main(string[] args)
         {
-            cartesion prg = new cartesion();
-            prg.calc_distance();
+            Check_Equality prg = new Check_Equality();
+            prg.get_equality();
 
         }
     }
