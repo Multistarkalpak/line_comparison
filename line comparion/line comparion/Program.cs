@@ -6,8 +6,8 @@ namespace Program
     {
         public static void Main(string[] args)
         {
-            // This is the Task UC1 for Welcoming 
-            Console.WriteLine("Welcome to linecomparsion problems");
+            cartesion prg = new cartesion();
+            prg.calc_distance();
 
         }
     }
