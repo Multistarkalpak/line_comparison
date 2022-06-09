@@ -6,8 +6,8 @@ namespace Program
     {
         public static void Main(string[] args)
         {
-            Check_Equality prg = new Check_Equality();
-            prg.get_equality();
+            compare_line prg = new compare_line();
+            prg.linecomp();
 
         }
     }
